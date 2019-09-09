@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import com.training.pom.LogoutPOM;
 
 
-public class StudentLogoutTest  extends StudentLoginTests {
+public class StudentLogoutTest  extends StudentLoginTest {
 
 	
 	private static LogoutPOM logoutPOM;
@@ -28,6 +28,7 @@ public class StudentLogoutTest  extends StudentLoginTests {
 		System.out.println(expectedmsg.getText());
 		String expmsg =expectedmsg.getText();
 		Assert.assertEquals(actualmsg, expmsg);
+		
 		
 		// To click on the dropdown beside user icon
 		logoutPOM.clickdropdown();

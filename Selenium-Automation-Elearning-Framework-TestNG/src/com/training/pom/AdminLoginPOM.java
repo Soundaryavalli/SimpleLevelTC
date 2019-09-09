@@ -37,4 +37,7 @@ public class AdminLoginPOM {
 		this.loginBtn.click(); 
 	}
 	
+	
+	
+	
 }
