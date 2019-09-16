@@ -1,3 +1,7 @@
 /extent-config.xml
 /log4j.properties
 /com/
+/db.properties
+/db.sql
+/others.properties
+/sql.properties

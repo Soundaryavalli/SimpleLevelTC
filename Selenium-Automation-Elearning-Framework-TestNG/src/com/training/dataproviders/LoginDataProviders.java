@@ -5,7 +5,7 @@ import java.util.List;
 import org.testng.annotations.DataProvider;
 
 import com.training.bean.LoginBean;
-import com.training.dao.ELearningDAO;
+import com.training.dao.ElearningDAO;
 import com.training.readexcel.ApachePOIExcelRead;
 import com.training.readexcel.ReadExcel;
 
@@ -14,7 +14,7 @@ public class LoginDataProviders {
 	@DataProvider(name = "db-inputs")
 	public Object [][] getDBData() {
 
-		List<LoginBean> list = new ELearningDAO().getLogins(); 
+		List<LoginBean> list = new ElearningDAO().getLogins(); 
 		
 		Object[][] result = new Object[list.size()][]; 
 		int count = 0; 

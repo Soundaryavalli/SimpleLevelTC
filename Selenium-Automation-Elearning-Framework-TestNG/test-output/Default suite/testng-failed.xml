@@ -3,16 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.CreateCourseTest">
+      <class name="com.training.regression.tests.SignupDBTest">
         <methods>
-          <include name="aftersuite"/>
+          <include name="setUp"/>
           <include name="setUpBeforeClass"/>
-          <include name="validCreateCourseTest"/>
-          <include name="ValidCreateTask"/>
-          <include name="beforesuite"/>
+          <include name="SignupDBTest" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.CreateCourseTest -->
+      </class> <!-- com.training.regression.tests.SignupDBTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
